@@ -18,7 +18,8 @@ import java.util.List;
 public class CORSFilter implements Filter {
 
     private final List<String> allowedOrigins = Arrays.asList(
-    		"http://localhost:4200", 
+    		"http://photo-application-bucket.s3-website.us-east-2.amazonaws.com",
+            "http://localhost:4200",
     		"http://p.mdashikjs.com", 
     		"http://63.142.253.15",
     		"http://higherstudyabroad.com",
